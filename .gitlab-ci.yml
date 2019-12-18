@@ -20,7 +20,7 @@ lint:
 bundle-stable:
   stage: deploy
   only:
-  - master@antora/antora-ui-default
+  - master@antora/antora-ui-mp
   cache: *pull_cache
   script:
   - *npm_install
@@ -43,7 +43,7 @@ bundle-dev:
 pages:
   stage: deploy
   only:
-  - master@antora/antora-ui-default
+  - master@antora/antora-ui-mp
   cache: *pull_cache
   script:
   - *npm_install
