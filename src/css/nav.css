@@ -165,6 +165,7 @@ html.is-clipped--nav {
 .is-current-page > .nav-link,
 .is-current-page > .nav-text {
   font-weight: var(--body-font-weight-bold);
+  color: var(--color-jet-80);
 }
 
 .nav-panel-explore {
@@ -257,7 +258,8 @@ html.is-clipped--nav {
 }
 
 .nav-panel-explore .component .is-current a {
-  border-color: currentColor;
+  color: var(--color-jet-80);
+  border-color: var(--color-jet-80);
   opacity: 0.9;
   font-weight: var(--body-font-weight-bold);
 }
